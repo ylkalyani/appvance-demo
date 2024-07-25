@@ -136,7 +136,7 @@
     <step action='log' value='random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2e0bf825-23f4-4945-b753-136da5030d21' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='setValue' value='$random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='97dde118-087a-43b9-aa9b-dc662f8ad47b' uiType='base'>
+    <step action='setValue' value='random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='97dde118-087a-43b9-aa9b-dc662f8ad47b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='textbox("src-components-Forms-Inputs-Text-styles___text undefined[7]")' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='textbox("description")' selected='false' fallback='true'></accessor>

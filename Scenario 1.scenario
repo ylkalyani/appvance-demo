@@ -22,17 +22,18 @@
   <basics>
     <name>Scenario 1.scenario</name>
     <defaultdirectory/>
-    <basicName/>
-    <creator/>
+    <basicName>Lakshmi</basicName>
+    <creator>Lakshmi</creator>
     <versions/>
     <categorization/>
-    <userinfo/>
+    <include>REPOSITORY/demo/Scenario 1.scenario</include>
+    <userinfo>Lakshmi</userinfo>
   </basics>
   <resources>
     <resource name="Login.ds" type="ds" path="{scenario}/Login.ds"/>
   </resources>
   <testnodes>
-    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode"/>
+    <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode" username="Lakshmi_Yakkala_CAYUSE@appvance.com" password="AppvanceSH93847573*A"/>
   </testnodes>
   <bundles>
     <bundle name="hibernate" version="3.0"/>

@@ -1,11 +1,157 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Lakshmi_Yakkala_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://signin.ft.cayuse.com/login?tenant_id=8f9cdc53-2d86-426f-85e0-37151b982a72&amp;redirect_uri=https%3A%2F%2Ffsqa.ft.cayuse.com%2F&amp;response_type=TOKEN&amp;state&amp;nonce&amp;auth_error=false"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cc6f258a-e816-4ff9-b60c-3cc8bcae96a6' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"0_test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ccf4fcd3-b395-42e5-b584-0ce8b72268ff' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="username"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("form-control inputField-customizable")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="username"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("username")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("username")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;username&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control inputField-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div[2]/div/form/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;username&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="form-control inputField-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#username&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="username"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value=""]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"cayuse@999"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8298ba02-698e-4dd2-8076-344180fc98b4' uiType='base' isMasked='true'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="password"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='password("form-control inputField-customizable")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='password("password")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("password")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;password&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div[2]/div/form/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;password&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#password&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="password"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='95b038fd-2b72-4471-9c01-29eb7989680c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("btn btn-primary submitButton-customizable")' selected='true' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="signInSubmitButton"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='submit("signInSubmitButton")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrValue' value='submit("Sign in")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div/div/div/div[2]/div/form/input[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-primary submitButton-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/div/div[2]/div/form/input[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;container&apos;]/div[@class=&apos;modal-dialog&apos;]/div[@class=&apos;modal-content background-customizable modal-content-mobile&apos;]/div[@class=&apos;modal-body&apos;]/div[1]/form[@class=&apos;cognito-asf&apos;]/input[@class=&apos;btn btn-primary submitButton-customizable&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;Submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;form[class="cognito-asf"] &gt; input[class="btn btn-primary submitButton-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.cognito-asf &gt; .btn.btn-primary.submitButton-customizable&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;form[name="cognitoSignInForm"] &gt; input[name="signInSubmitButton"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Sign in"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ad25a83b-6b92-4280-a7a1-a291b7c46313' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(1, _in(custom("cayuse-dropdown", "products")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(1, _in(custom("cayuse-dropdown", {&apos;id&apos;:&apos;products&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Products")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='span({&apos;slot&apos;:&apos;label&apos;})' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e28a9e71-6d13-4a8d-ab51-39c5ecb73d5e' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(0, _in(link("/admin-web")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(0, _in(link({&apos;id&apos;:&apos;/admin-web&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Admin")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='selectWindow' value='"Admin"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='60ad7335-6358-4878-ac5d-4ebcadf00ca7' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='acada2bf-c827-4027-b1bd-9d398d01dcf4' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='textbox(0, _in(div("view-list-people")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='textbox(0, _in(div({&apos;id&apos;:&apos;view-list-people&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___invisible node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___text src-components-SearchBarNav-styles___firstFacetSearch")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;view-list-people&apos;]/div/div/div/div[1]/div/div/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___text node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___invisible src-components-SearchBarNav-styles___firstFacetSearch"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div[2]/section/section/div/div/div/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;view-list-people&apos;)/div[@class=&apos;styles.baseMargin undefined&apos;]/div[@class=&apos;src-components-BasePadding-styles___desktop src-components-BasePadding-styles___mobile&apos;]/div[@class=&apos;src-components-FeedTable-styles___container&apos;]/div[@class=&apos;node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___cell node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusTopLeft node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusTopRight node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusBottomLeft node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderTop node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderRight node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderBottom node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderLeft&apos;]/div[@class=&apos;src-components-SearchBarNav-styles___facetedSearchBar&apos;]/div[@class=&apos;src-components-SearchBarNav-styles___inputWrapper&apos;]/input[@class=&apos;node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___text node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___invisible src-components-SearchBarNav-styles___firstFacetSearch&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="src-components-FeedTable-styles___container"] &gt; div[class="node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___cell node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusTopLeft node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusTopRight node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___radiusBottomLeft node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderTop node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderRight node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderBottom node_modules-@bit-cayuse-react-components-padded-cell-dist-styles___borderLeft"] &gt; div[class="src-components-SearchBarNav-styles___facetedSearchBar"] &gt; div[class="src-components-SearchBarNav-styles___inputWrapper"] &gt; input[class="node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___text node_modules-@bit-cayuse-react-components-form-inputs-text-dist-styles___invisible src-components-SearchBarNav-styles___firstFacetSearch"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="t"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e6b1e135-44d5-40ed-a36f-be2a5649925d' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("xOfYWrapper")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='div("Showing 1 - 25 / 200 items")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;view-list-people&apos;]/div/div/div/div[2]/div[2]/div/div[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="xOfYWrapper"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Showing 1 - 25 / 200 items"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div[2]/section/section/div/div/div/div/div[2]/div[2]/div/div[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;view-list-people&apos;)/div[@class=&apos;styles.baseMargin undefined&apos;]/div[@class=&apos;src-components-BasePadding-styles___desktop src-components-BasePadding-styles___mobile&apos;]/div[@class=&apos;src-components-FeedTable-styles___container&apos;]/div[@class=&apos;styles.baseMargin &apos;]/div[@class=&apos;src-components-FeedTable-styles___pagingControls&apos;]/div[@class=&apos;paging&apos;]/div[@class=&apos;xOfYWrapper&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="src-components-FeedTable-styles___container"] &gt; div[class="styles.baseMargin "] &gt; div[class="src-components-FeedTable-styles___pagingControls"] &gt; div[class="paging"] &gt; div[class="xOfYWrapper"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='95a6592e-6130-4b57-83d2-73b285158b00' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(0, _in(div("view-list-people")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;view-list-people&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("0_TEST, 0_TEST (TEST)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;view-list-people&apos;]/div/div/div/div[2]/div[1]/div/table/tbody/tr[1]/td[1]/a/span")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div[2]/section/section/div/div/div/div/div[2]/div/div/table/tbody/tr/td/a/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;view-list-people&apos;)/div[@class=&apos;styles.baseMargin undefined&apos;]/div[@class=&apos;src-components-BasePadding-styles___desktop src-components-BasePadding-styles___mobile&apos;]/div[@class=&apos;src-components-FeedTable-styles___container&apos;]/div[@class=&apos;styles.baseMargin &apos;]/div[@class=&apos;styles.baseMargin &apos;]/div[@class=&apos;src-components-FeedTable-styles___feedTableWrapper&apos;]/table[@class=&apos;ui selectable table classes  src-components-FeedTable-styles___feedTable&apos;]/tbody[1]/tr[1]/td[1]/a[1]/span[1]")' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6339cb0b-eb2e-4685-a427-dcc640485ae1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='div(34, _in(custom("main", "content-main")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='div(34, _in(custom("main", {&apos;id&apos;:&apos;content-main&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='div("src-components-Forms-FormControl-styles___FormControl src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='div("Degree")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//main[@id=&apos;content-main&apos;]/div/div[2]/div/div/div[2]/div/form/div[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div/div/div[2]/div/form/div&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;content-main&apos;)/div[@class=&apos;src-containers-PageLayout-styles___Page&apos;]/div[@class=&apos;src-containers-PageLayout-styles___Content&apos;]/div[@class=&apos;src-containers-PageLayout-styles___ContentWrapper&apos;]/div[@class=&apos;src-containers-PageLayout-styles___PageContent&apos;]/div[@class=&apos;src-containers-People-Forms-PeopleProfile-DegreesForm-styles___DegreesForm&apos;]/div[@class=&apos;undefined src-components-Forms-SectionFormHeader-styles___Container&apos;]/form[1]/div[@class=&apos;src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree.src-components-Forms-FormControl-styles___FormControl&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"12345"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='97dde118-087a-43b9-aa9b-dc662f8ad47b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textbox("src-components-Forms-Inputs-Text-styles___text undefined[7]")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("description")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//main[@id=&apos;content-main&apos;]/div/div[2]/div/div/div[2]/div/form/div[1]/input")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div/div/div[2]/div/form/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;content-main&apos;)/div[@class=&apos;src-containers-PageLayout-styles___Page&apos;]/div[@class=&apos;src-containers-PageLayout-styles___Content&apos;]/div[@class=&apos;src-containers-PageLayout-styles___ContentWrapper&apos;]/div[@class=&apos;src-containers-PageLayout-styles___PageContent&apos;]/div[@class=&apos;src-containers-People-Forms-PeopleProfile-DegreesForm-styles___DegreesForm&apos;]/div[@class=&apos;undefined src-components-Forms-SectionFormHeader-styles___Container&apos;]/form[1]/div[@class=&apos;src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl src-components-Forms-FormControl-styles___Touched&apos;]/input[@class=&apos;src-components-Forms-Inputs-Text-styles___text undefined&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;aria-label&apos;:&apos;Degree&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl src-components-Forms-FormControl-styles___Touched"] &gt; input[class="src-components-Forms-Inputs-Text-styles___text undefined"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree.src-components-Forms-FormControl-styles___FormControl.src-components-Forms-FormControl-styles___Touched &gt; .src-components-Forms-Inputs-Text-styles___text.undefined&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="description"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="1234"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8a781b38-0155-4a58-8d13-de3b04d14460' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='submit("src-components-Button-styles___button")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Save")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//main[@id=&apos;content-main&apos;]/div/div[2]/div/div/div[2]/div/div/div/button[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="src-components-Button-styles___button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div[2]/main/div/div[2]/div/div/div[2]/div/div/div/button[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;content-main&apos;)/div[@class=&apos;src-containers-PageLayout-styles___Page&apos;]/div[@class=&apos;src-containers-PageLayout-styles___Content&apos;]/div[@class=&apos;src-containers-PageLayout-styles___ContentWrapper&apos;]/div[@class=&apos;src-containers-PageLayout-styles___PageContent&apos;]/div[@class=&apos;src-containers-People-Forms-PeopleProfile-DegreesForm-styles___DegreesForm&apos;]/div[@class=&apos;undefined src-components-Forms-SectionFormHeader-styles___Container&apos;]/div[@class=&apos;src-components-Forms-SectionFormHeader-styles___Top&apos;]/div[1]/button[@class=&apos;src-components-Button-styles___button&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;aria-label&apos;:&apos;Save Degrees &amp; Qualifications&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[class="src-components-Button-styles___button"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+  </testcase>

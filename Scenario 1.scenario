@@ -26,7 +26,6 @@
     <creator>Lakshmi</creator>
     <versions/>
     <categorization/>
-    <include>REPOSITORY/demo/Scenario 1.scenario</include>
     <userinfo>Lakshmi</userinfo>
   </basics>
   <resources>
@@ -122,6 +121,9 @@
     </options>
     <options type="jira">
       <opt name="useJira" value="false"/>
+      <opt name="jiraIssueTypes" value="[object Object]"/>
+      <opt name="jiraFailure" value="[object Object]"/>
+      <opt name="jiraSuccess" value="[object Object]"/>
     </options>
     <options type="lr">
       <opt name="saveCompleteLrOutputLog" value="false"/>

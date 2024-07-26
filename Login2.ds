@@ -3,12 +3,12 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
-    <step action='navigateTo' value='"https://signin.ft.cayuse.com/login?tenant_id=8f9cdc53-2d86-426f-85e0-37151b982a72&amp;redirect_uri=https%3A%2F%2Ffsqa.ft.cayuse.com%2F&amp;response_type=TOKEN&amp;state&amp;nonce&amp;auth_error=false"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cc6f258a-e816-4ff9-b60c-3cc8bcae96a6' uiType='base'>
+    <step action='navigateTo' value='"https://signin.ft.cayuse.com/login?tenant_id=8f9cdc53-2d86-426f-85e0-37151b982a72&amp;redirect_uri=https%3A%2F%2Ffsqa.ft.cayuse.com%2F&amp;response_type=TOKEN&amp;state&amp;nonce&amp;auth_error=false"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='96c87f18-cdc7-4a4c-9e5e-7f1ae4799b1b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='' value='' selected='true' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"0_test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ccf4fcd3-b395-42e5-b584-0ce8b72268ff' uiType='base'>
+    <step action='setValue' value='"0_test"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c7aed538-bc73-4157-af38-7a841adb1174' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="username"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='textbox("form-control inputField-customizable")' selected='false' fallback='true'></accessor>
@@ -127,6 +127,14 @@
         <accessor type='JQuery' value='byJQuery(&apos;div[class="src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree src-components-Forms-FormControl-styles___FormControl"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;.src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree.src-components-Forms-FormControl-styles___FormControl&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
+    </step>
+    <step action='store' value='getSelectValues("src-components-Forms-Inputs-Text-styles___text undefined[7]")' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a489fdce-a16a-4dfa-9518-ee2d3e18bce2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='oldvalue' selected='true' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='log' value='"oldvalue"+oldvalue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3f9f2b65-f07a-4563-890e-89699125c6fc' uiType='base'>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='store' value='Math.floor(Math.random() * 10)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e6fd92e6-2856-4006-b033-00c378254108' uiType='base'>
       <dialect type='sahi'>

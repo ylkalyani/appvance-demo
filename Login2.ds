@@ -128,7 +128,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;.src-containers-People-Forms-PeopleProfile-DegreesForm-styles___degree.src-components-Forms-FormControl-styles___FormControl&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='store' value='getSelectValues("src-components-Forms-Inputs-Text-styles___text undefined[7]")' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a489fdce-a16a-4dfa-9518-ee2d3e18bce2' uiType='base'>
+    <step action='store' value='getTextValue("src-components-Forms-Inputs-Text-styles___text undefined[7]")' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a489fdce-a16a-4dfa-9518-ee2d3e18bce2' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='oldvalue' selected='true' fallback='true'></accessor>
       </dialect>

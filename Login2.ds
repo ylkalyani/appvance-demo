@@ -133,7 +133,7 @@
         <accessor type='unknown' value='oldvalue' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='"oldvalue"+oldvalue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3f9f2b65-f07a-4563-890e-89699125c6fc' uiType='base'>
+    <step action='log' value='"oldvalue"+ oldvalue' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3f9f2b65-f07a-4563-890e-89699125c6fc' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='store' value='Math.floor(Math.random() * 10)' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e6fd92e6-2856-4006-b033-00c378254108' uiType='base'>
@@ -141,7 +141,7 @@
         <accessor type='unknown' value='random' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='log' value='"newvalue"+random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2e0bf825-23f4-4945-b753-136da5030d21' uiType='base'>
+    <step action='log' value='"newvalue"+ random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2e0bf825-23f4-4945-b753-136da5030d21' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
     <step action='setValue' value='random' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='97dde118-087a-43b9-aa9b-dc662f8ad47b' uiType='base'>

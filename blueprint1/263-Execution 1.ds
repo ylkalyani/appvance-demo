@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testcase   name= 'null' description= 'null' author= 'null' version= 'null'>
+<dpl filename='{ds}/dpl.csv' exectype='runallstep' errorhandling='' type='HashDPL' locale='en_US'/>
+<fallback useFallback='false'/>
+<shadowDOM useShadowDOM='false'/>
+<step action='setFailOnValidations' value='true' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='true' selected='true'/>
+</dialect>
+</step>
+<step action='prepareDomain' value='$baseURL' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='true' selected='true'/>
+</dialect>
+</step>
+<step action='setShadowDOM' value='true' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='true' selected='true'/>
+</dialect>
+</step>
+<step action='setFindOnlyVisible' value='true' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='true' selected='true'/>
+</dialect>
+</step>
+<step action='setFindOnlyEnabled' value='true' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='unknown' value='' fallback='true' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='$baseURL' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Text' value='link(&quot;Login&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrHref' value='link(&quot;/login&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;a[href=&quot;/login&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Login&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(0, _in(listItem(&quot;link-to-login&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;link-to-login&apos;})))' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;link-to-login&apos;)/a[1]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//li[@id=&apos;link-to-login&apos;]/a&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/header/div/div/nav/ul/li/a&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Text' value='link(&quot;Forgot Password?&quot;)' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(1, _in(div(&quot;existing-customer&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(1, _in(div({&apos;id&apos;:&apos;existing-customer&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrHref' value='link(&quot;/password/recover&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;a[href=&quot;/password/recover&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot;Forgot Password?&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;existing-customer&apos;)/div[@class=&apos;text-center&apos;]/a[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//div[@id=&apos;existing-customer&apos;]/div[1]/a[2]&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div/div[2]/div/a[2]&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Text' value='link(&quot;Cart: (Empty)&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrHref' value='link(&quot;/cart&quot;)' fallback='true' selected='false'/>
+   <accessor type='AttrClass' value='link(&quot;cart-info empty&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;a[href=&quot;/cart&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;a[class=&quot;cart-info empty&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(0, _in(listItem(&quot;link-to-cart&quot;)))' fallback='true' selected='false'/>
+   <accessor type='XPathText' value='byXPath(&apos;//*[text()=&quot; Cart: (Empty)&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;link-to-cart&apos;})))' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;#link-to-cart &gt; .cart-info.empty&apos;)' fallback='true' selected='false'/>
+   <accessor type='XPathClass' value='byXPath(&apos;//*[@class=&quot;cart-info empty&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;link-to-cart&apos;)/a[@class=&apos;cart-info empty&apos;]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//li[@id=&apos;link-to-cart&apos;]/a&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/div/nav/div/ul[2]/li/a&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+<step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' isMasked='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='Parent' value='link(0, _in(figure(&quot;logo&quot;)))' fallback='true' selected='false'/>
+   <accessor type='Parent' value='link(0, _in(figure({&apos;id&apos;:&apos;logo&apos;})))' fallback='true' selected='false'/>
+   <accessor type='AttrHref' value='link(&quot;/&quot;)' fallback='true' selected='false'/>
+   <accessor type='JQuery' value='byJQuery(&apos;a[href=&quot;/&quot;]&apos;)' fallback='true' selected='false'/>
+   <accessor type='RelativeXPath' value='byXPath(&quot;id(&apos;logo&apos;)/a[1]&quot;)' fallback='true' selected='false'/>
+   <accessor type='XPath' value='byXPath(&quot;//figure[@id=&apos;logo&apos;]/a&quot;)' fallback='true' selected='false'/>
+   <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/header/div/div/figure/a&apos;)' fallback='true' selected='false'/>
+</dialect>
+</step>
+</testcase>
